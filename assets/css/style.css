@@ -1,0 +1,60 @@
+@media (min-width:100px)and (max-width:1070px) {
+   
+    #movil-texto{
+       display: none;
+    }
+    
+    #seccion2{
+        height: 51rem;
+    }
+    .row-left{
+        transform: none;
+        padding: 4rem;
+        padding-top: 6rem;
+        margin:4rem 2rem 2rem 2rem;
+    }
+    #icono-Escritorio{
+        display: none;
+        background: wheat;
+        margin-top: 0;
+        /* height: 10px; */
+    }
+    #icono-Movil{
+        display: flex;
+        flex-direction:row;
+        justify-content: flex-start;
+        /* margin-top: 290px; */
+        padding: 5px;
+    }
+    #todo{
+        padding-top: 0px;
+        top: 0;
+        margin-top: 0;
+
+    }
+    
+}
+
+
+.row-left{
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    margin-top:4rem;
+    margin-bottom: 0;
+    border: 1px solid #FFF;
+    padding: 4rem 20rem;
+    transform: translateX(-20%);
+}
+#seccion2 h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+#seccion2 p{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2.8rem;
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+}
